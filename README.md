@@ -13,3 +13,9 @@ Things I adjusted from the original repo are:
 - Omitted DVC as I did not have time to implement
 - Changed the model to be scikit-learn KNeighborsClassifier because the old one could not run on my mac
 - Something more that I forgot
+
+Subfolders:
+
+- `mlops_infra` is to initialise infrastructure in AWS
+- `model-template` is a template for creating new projects to deploy in the infrastructure
+- `iris-mlops` is a project created from `model-template`
