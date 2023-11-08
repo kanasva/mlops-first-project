@@ -8,8 +8,8 @@ This is my first MLOps Project, forked from [mlplatform-workshop](https://github
 
 Things I adjusted from the original repo are:
 
-- Update dependencies to be able to deploy in AWS recently
-- Modified some code in mlops_infra as [shabieh2 wrote](https://github.com/aporia-ai/mlplatform-workshop/issues/5#issuecomment-1459073895) to be able to deploy in AWS currently
+- Update dependencies to be able to deploy in current AWS
+- Modified some code in mlops_infra as [shabieh2 wrote](https://github.com/aporia-ai/mlplatform-workshop/issues/5#issuecomment-1459073895) to be able to deploy in current AWS
 - Omitted DVC as I did not have time to implement
 - Changed the model to be scikit-learn KNeighborsClassifier because the old one could not run on my mac
 - Something more that I forgot
